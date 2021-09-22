@@ -1,8 +1,9 @@
 #!/bin/bash
-MSG=$1 &&
-if [[ $MSG ]]; then
-    echo "Commit message is $MSG"
-    git add -A && git commit -m $MSG
+msg=$1 &&
+if [[ $msg ]]; then
+    echo "commit msg is $msg"
+    git add -A && git commit -m $msg
 else
-    echo "No commit message provided, default to ``updates``"
+    echo "no commit msg provided, default to ``updates``"
     git add -A && git commit -m "updates"
+fi
