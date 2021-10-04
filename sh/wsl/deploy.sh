@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /home/zx/repo/xvverse/xvnotes
+# use post-commit hook (see _static folder) for updating github pages.
