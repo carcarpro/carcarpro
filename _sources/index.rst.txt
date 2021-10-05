@@ -15,6 +15,7 @@ Welcome to carcarpro's documentation!
 
    rst/protective-film
    rst/know-your-car
+   rst/misc
    
 
 
