@@ -13,6 +13,7 @@ Welcome to carcarpro's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   rst/protective-film
    
 
 
