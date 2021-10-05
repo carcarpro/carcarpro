@@ -7,6 +7,10 @@ PARENT_DIR="repo" # redundent comment for post-commit testing
 PROJ_DIR="carcarpro"
 
 if [ $branch = $target ]; then
+    
+    cd ~/repo/carcarpro
+    source ~/.venvs/sphinx/bin/activate
+
     # echo -e "\033[1;31m This is red text \033[0m"
     echo -e "\033[1;31m [INFO] in main branch \033[0m"
     echo -e "\033[1;31m [INFO] make html \033[0m"
